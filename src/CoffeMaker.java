@@ -7,11 +7,4 @@ public class CoffeMaker {
         return coffee;
     }
 
-    public static void main(String[] args) {
-      Coffee myC = makeCoffee();
-        System.out.println(myC);
-
-        Coffee coffee =  makeCoffee();
-        System.out.println(coffee);
-    }
 }
